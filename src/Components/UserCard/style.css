@@ -1,0 +1,99 @@
+/* Default Styles  */
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+/* Pen Style  */
+
+.root-card {
+  display: inline-block;
+  max-height: 250px;
+}
+.card-wrapper {
+  height: 250px;
+}
+
+.card-front {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.55em;
+  background: #212121;
+  background: -webkit-linear-gradient(to right, #7c7c7c, #212121);
+  background: linear-gradient(to right, #7c7c7c, #212121);
+}
+
+.card-links {
+  padding: 15px;
+}
+
+.card-links span {
+  color: #fff;
+  font-size: 22px;
+}
+
+.card-links span:last-child {
+  float: right;
+}
+
+.card-user img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+}
+
+.card-user span {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.card-user span > i {
+  font-family: "Pacifico", cursive;
+  display: block;
+  font-size: 8px;
+}
+
+/* In cad-user div  */
+.user-info {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px 5px;
+}
+
+.user-info span {
+  flex: 1;
+  font-size: 12px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.user-info span b {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .user-info span {
+    font-size: 12px;
+  }
+}

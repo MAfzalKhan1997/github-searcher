@@ -1,0 +1,12 @@
+.input-root {
+  padding: 5px;
+}
+
+.git-input {
+  border-radius: 1px;
+  height: 30px;
+  font-size: 18px;
+  border: 1px solid lightgrey;
+  padding: 0.6em 0.3em 0.6em 0.3em;
+  width: calc(100% - 20px);
+}
