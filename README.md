@@ -1,7 +1,7 @@
 # Github Searcher
 A Github Search Engine App where you can search for Github Users or Repositories.
 
-## Live: [github-searcher-mak.web.app](https://github-searcher-mak.web.app/)
+### Live: [github-searcher-mak.web.app](https://github-searcher-mak.web.app/)
 
 ## High Level Solution and Decision
 I've made this app a `Progressive Web App (PWA)`. As we already know about the features of PWA but specially I took this decision to fulfill the requirments of `less API calls`. It will always look for `cache first` if the requested data is found in cache then it will be sent to the client, but If there would be no such data found then it will request and call the API also the fetched data will be cached for future use.
