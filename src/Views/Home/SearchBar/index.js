@@ -39,11 +39,11 @@ const SearchBar = () => {
     }
   }, [inputValue, selected, fetchData]);
 
-  useEffect(() => {
-    if ((users.length || repositories.length) && inputValue.length < 3) {
-      dispatch(emptyArrays());
-    }
-  }, [users, repositories, inputValue]);
+  // useEffect(() => {
+  //   if ((users.length || repositories.length) && inputValue.length < 3) {
+  //     dispatch(emptyArrays());
+  //   }
+  // }, [users, repositories, inputValue]);
 
   const onChange = (e) => {
     const value = e.target.value;

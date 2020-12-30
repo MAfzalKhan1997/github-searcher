@@ -5,7 +5,7 @@ const UserCard = ({ data: { login, avatar_url } }) => {
     <div className="root-card">
       <div className="card-wrapper">
         <div className="card-front">
-          <div className="card-links"></div>
+          <div className="card-links" />
           <div className="card-user">
             <img src={avatar_url} alt={login} />
             <span>
